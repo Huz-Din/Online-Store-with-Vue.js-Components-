@@ -1,0 +1,35 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital-shop(Vue.js)</title>
+    <link rel="shortcut icon" href="icon_JS_1.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app" class="container">
+    <header>
+        <div class="logo">Digital-shop</div>
+        <div class="cart">
+            <finder></finder>
+            <cart ref="cart"></cart>
+        </div>
+    </header>
+
+    <main>
+        <products ref="products"></products>
+    </main>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
+<script src="ComponentCart.js"></script>
+<script src="ComponentProduct.js"></script>
+<script src="ComponentFilter.js"></script>
+<script src="Script.js"></script>
+    
+</body>
+</html>
